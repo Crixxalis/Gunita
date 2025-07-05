@@ -1,20 +1,32 @@
-.title {
-    font-family: "Dancing Script", cursive;
-    font-size: 50px;
+@media (min-width: 541px){
+    .title {
+        font-family: "Dancing Script", cursive;
+        font-size: 50px;
+    }
+    .logo {
+        height: 300px;
+        width: 250px;
+        justify-content: center;
+    }
 }
-.logo {
-    height: 300px;
-    width: 250px;
-    justify-content: center;
-}
-
-
-
-
 
 
 @media (max-width: 540px) {
     .title {
         font-size: 30px;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .txt {
+        font-size: 30px;
+        text-align: center;
+    }
+    .newBtn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
