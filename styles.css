@@ -1,39 +1,81 @@
-.title {
+/* BREAKPOINTS FOR LAPTOP / DESKTOP  */
+@media (min-width: 1025px){
+    .homeTitle {
      font-family: "Dancing Script", cursive;
      font-size: 50px;
-}
-.logo {
-    height: 300px;
-    width: 250px;
-    justify-content: center;
-}
-
-
-@media (max-width: 540px) {
-    .title {
-        font-size: 30px;
+     margin-top: 150px;
+     font-size: 70px;
+     font-weight: bolder;
     }
-    .logo {
+    .homeLogo {
+        width: 400px;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .myNav {
+        background-color: #F7CFD8;
+    }
+    .homeTxt {
+        font-style: italic;
+    }
+    .gunitaLogo {
+        width: 300px;
+        margin-top: 50px;
+    }
+    .aboutTxt {
+        font-size: 22px;
+        margin-top: 80px;
+    }
+    li:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+}
+
+/* BREAKTPOINTS FOR MOBILE PHONE */
+@media (max-width: 540px) {
+    .homeTitle {
+        font-family: "Dancing Script", cursive;
+        font-size: 40px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .homeLogo {
+        margin-top: 20px;
+        width: 300px;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
-    .txt {
-        font-size: 30px;
+    .homeTxt {
+        font-size: 16px;
         text-align: center;
         margin-top: 15;
     }
-    .newBtn {
+    .myNav {
+        background-color: #F7CFD8;
+    }
+    .aboutTxt {
+        text-align: center;
+    }
+}
+
+/* BREAKPOINTS FOR TABLETS */
+@media (min-width: 700px) and (max-width: 1024px) {
+
+    .homeTxt{
+        font-family: "Dancing Script", cursive;
+    }
+    .homeTitle{
+        margin-top: 50px;
+    }
+    .homeLogo {
+        margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
-}
-
-@media (min-width: 700px) {
-    .logo {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    .myNav {
+        background-color: #F7CFD8;
     }
 }

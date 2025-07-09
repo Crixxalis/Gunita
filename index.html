@@ -17,50 +17,104 @@
 </head>
 <body>     
 
-    <nav class="nav navbar sticky-top justify-content-end">
+    <nav class="myNav nav navbar sticky-top justify-content-end">
             <img src="" alt="">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+            <li class="nav-item">
+                <a class="myLink link-body-emphasis nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="myLink link-body-emphasis nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="myLink link-body-emphasis nav-link me-5" href="#">Contact</a>
+            </li>
         </nav>
 
-    <div class="container-fluid container-sm">
-
-        <h1 class="title text-center mb-5 mt-5">Gunita</h1>
-        
+    <div class="container-fluid container-sm">        
 
         <div class="row">
 
             <div class="col-sm-3 col-lg-4 col-md-5">
-                <img src="assets/Gunita.png" class="logo img-fluid" alt="">
+                <img src="assets/couple_bicycle.png" class="homeLogo img-fluid" alt="">
             </div>
 
             <div class="col-sm-6 col-md-7 col-lg-8 col-xxl-8">
-                <p class="txt text-justify mx-auto lead">
+
+                <h1 class="homeTitle">Gunita</h1>
+                <br>
+                <p class="homeTxt text-justify mx-auto">
                     In every captured moment lies a piece of our love story, soft glances, 
                     quiet laughs, and stolen kisses frozen in time.
                 </p>
-                <p class="txt text-justify mx-auto lead">
+
+                <p class="homeTxt text-justify mx-auto">
                     Gunita is where our memories live, 
                     gently reminding us that no matter how fast the world moves, our love is always worth remembering.
                 </p>
 
                 
-                <button class="newBtn btn btn-primary mt-4" type="button">Get started</button>
+                <div class="newBtn row col-sm-3 col-lg-4 col-xxl-2">
+                    <a href="main.html" class="btn btn-primary" type="button">Get started</a>
+                </div>
 
             </div>
 
         </div>
 
+        <br><br><br><br><br><br><br>    
+        <hr>
+        <section class="">
+            <h1 id="about" class="text-center mt-5">About</h1>
+
+            <div class="row">
+                <div class="col">
+                    <p class="aboutTxt text-justify">
+                        Gunita is a web-based photo album designed for couples to beautifully capture, organize, and relive their most meaningful memories together.
+                        With a romantic and minimalist aesthetic, it offers a heartfelt space to preserve special moments, from first dates to anniversaries. 
+                        Turning shared experiences into a timeless digital keepsake.
+                     </p>
+
+                    <div class="row mt-5">
+                        <ul class="justify-content-center list-group list-group-horizontal">
+
+                            <li class="list-group-item">
+                                <a href="https://facebook.com" class="link-body-emphasis">
+                                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                                </a>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="https://instagram.com" class="link-body-emphasis">
+                                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                                </a>
+                                
+                            </li>
+
+                            <li class="list-group-item">
+                                 <a href="https://x.com/" class="link-body-emphasis">
+                                    <i class="fa-brands fa-x-twitter fa-2xl"></i>
+                                 </a>
+                                
+                            </li>
+
+                            <li class="list-group-item">
+                                <a href="https://mail.google.com/" class="link-body-emphasis">
+                                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                                </a>
+                                
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br>
+        </section>
+
     </div>
 
     <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/3015b8d5f8.js" crossorigin="anonymous"></script>
 </body>
 </html>
